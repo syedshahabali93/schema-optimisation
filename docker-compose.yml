@@ -1,0 +1,10 @@
+services:
+  node-query-app:
+    build: ./docker-image
+    container_name: node-query-app
+    environment:
+      - MONGO_URL=mongodb://host.docker.internal:27017  # Use host.docker.internal
+    depends_on: []
+    restart: on-failure
+    mem_limit: 256m       # Limit memory to 256 MB
+    cpus: "0.5"           # Restrict to 50% of a single CPU core

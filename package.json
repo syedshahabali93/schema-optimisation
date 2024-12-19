@@ -1,0 +1,14 @@
+{
+  "name": "mongodb-database-optimization",
+  "version": "1.0.0",
+  "description": "This is a mongodb database optimization example that can be used to understand different concepts such as Schema Optimization and so on.",
+  "main": "insertdata-after-optimization.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0"
+  }
+}
