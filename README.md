@@ -19,7 +19,7 @@ If the system grows and querying by tags becomes frequent, partitioning data acr
 Partitioning posts based on tags helps in isolating data that is frequently accessed and ensures that each query is smaller in scope. This enables more efficient indexing and faster query execution.
 
 # Before vs. After Summary:
-| Header 1      | Header 2      | Header 3      |
+| Aspect      | Before Design      | After Design      |
 |---------------|---------------|---------------|
 | Relationships | References between users, posts, and comments | Embedded data in posts (comments, user details) |
 | Query Complexity | Requires multiple queries (joins) | Single query to fetch post with embedded data |
